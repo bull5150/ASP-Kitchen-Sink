@@ -10,24 +10,15 @@
 namespace ASP_Kitchen_Sink {
     
     
-    public partial class Sql {
+    public partial class E500 {
         
         /// <summary>
-        /// grdFormData control.
+        /// lblErrorMsg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView grdFormData;
-        
-        /// <summary>
-        /// aspexample_db control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource aspexample_db;
+        protected global::System.Web.UI.WebControls.Label lblErrorMsg;
     }
 }

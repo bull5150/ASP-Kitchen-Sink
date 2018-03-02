@@ -184,6 +184,15 @@ namespace ASP_Kitchen_Sink {
         protected global::System.Web.UI.WebControls.DropDownList ddldropdownsql;
         
         /// <summary>
+        /// aspexample control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource aspexample;
+        
+        /// <summary>
         /// rdoOne control.
         /// </summary>
         /// <remarks>
@@ -245,14 +254,5 @@ namespace ASP_Kitchen_Sink {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblMessage;
-        
-        /// <summary>
-        /// aspexample control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource aspexample;
     }
 }

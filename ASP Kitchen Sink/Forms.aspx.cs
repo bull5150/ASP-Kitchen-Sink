@@ -66,7 +66,7 @@ namespace ASP_Kitchen_Sink
                 formdt.Email = txtEmail.Text;
                 formdt.Phone = txtPhone.Text;
 
-                SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\asp_example.mdf;Integrated Security=True;Connect Timeout=30");
+                SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\asp_db_example.mdf;Integrated Security=True;Connect Timeout=30");
 
                 try
                 {
@@ -119,12 +119,10 @@ namespace ASP_Kitchen_Sink
                 }
                 catch (Exception ex)
                 {
-                    Response.Redirect("404.aspx");
+                    Session["Error"] = ex.Message;
+                    Response.Redirect("E505.aspx");
                 }
-                //Session["Forms"] = formdt;
-                //Response.Redirect("Confirm.aspx");
             }
         }
-
     }
 }

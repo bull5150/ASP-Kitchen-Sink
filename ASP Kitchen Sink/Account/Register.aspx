@@ -1,7 +1,10 @@
 ﻿<%@ Page Title="Register" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="ASP_Kitchen_Sink.Account.Register" %>
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
-    <h2><%: Title %>.</h2>
+    <div class="jumbotron">
+        <h1><%: Title %></h1>
+        <p class="lead">I didnt do anything with the accounts really other than enable them and let you use a password without a special value.</p>
+    </div>
     <p class="text-danger">
         <asp:Literal runat="server" ID="ErrorMessage" />
     </p>

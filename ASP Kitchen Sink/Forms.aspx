@@ -71,7 +71,7 @@
                 <div class="form-group">
                     <label class="col-sm-3 control-label">Basic Drop Down</label>
                     <div class="col-sm-4">
-                        <asp:DropDownList ID="ddldropdownbasic" runat="server" CssClass="form-control">
+                        <asp:DropDownList ID="ddldropdownbasic" runat="server" CssClass="form-control" DataTextField="indexer" DataValueField="indexer">
                             <asp:ListItem>Option 1</asp:ListItem>
                             <asp:ListItem>Option 2</asp:ListItem>
                         </asp:DropDownList>
@@ -119,6 +119,7 @@
                     <div class="col-sm-4">
                         <asp:DropDownList ID="ddldropdownsql" runat="server" CssClass="form-control" DataSourceID="aspexample" DataTextField="value" DataValueField="indexer">
                         </asp:DropDownList>
+                        <asp:SqlDataSource ID="aspexample" runat="server" ConnectionString="<%$ ConnectionStrings:aspexample_database %>" SelectCommand="SELECT * FROM [dropdownlist_one] ORDER BY [indexer]"></asp:SqlDataSource>
                     </div>
                 </div>
                 <div class="form-group">
@@ -154,5 +155,4 @@
                         <asp:Label ID="lblMessage" runat="server" CssClass="text-info"></asp:Label>
                     </div>
                 </div>
-        <asp:SqlDataSource ID="aspexample" runat="server" ConnectionString="<%$ ConnectionStrings:aspexample_database %>" SelectCommand="SELECT [value], [indexer] FROM [dropdownlist_one] ORDER BY [indexer]"></asp:SqlDataSource>
         </asp:Content>
