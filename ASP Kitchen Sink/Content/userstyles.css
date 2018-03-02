@@ -1,0 +1,16 @@
+﻿.jumbotron{
+    background-image: url("media/sitebanner.jpg");
+    color: #fff;
+}
+#wrapper.active #sidebar-wrapper {
+    left: 50px;
+}
+.navbar-header{
+    margin-top: -45px;
+}
+#infopane{
+
+}
+#RandoBtn{
+    float: right;
+}
