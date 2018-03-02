@@ -53,8 +53,9 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav" style="font-size: 1.6em;" >
                         <li><a runat="server" href="~/"><span class="fa fa-home"></span> Home</a></li>
-                        <li><a runat="server" href="~/Forms"><span class="fa fa-wpforms"></span> Forms with Email</a></li>
+                        <li><a runat="server" href="~/Forms"><span class="fa fa-wpforms"></span> Forms Entry</a></li>
                         <li><a runat="server" href="~/Sql"><span class="fa fa-database"></span> SQL Data</a></li>
+                        <li><a runat="server" href="~/Email"><span class="fa fa-envelope-open"></span> Send Email</a></li>
                         <li><a runat="server" href="~/Charts"><span class="fa fa-area-chart"></span> Charts</a></li>
                     </ul>
                     <asp:LoginView runat="server" ViewStateMode="Disabled">

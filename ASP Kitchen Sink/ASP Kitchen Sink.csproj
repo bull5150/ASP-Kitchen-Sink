@@ -177,6 +177,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Charts.aspx" />
+    <Content Include="Email.aspx" />
     <Content Include="Forms.aspx" />
     <Content Include="Account\AddPhoneNumber.aspx" />
     <Content Include="Account\Confirm.aspx" />
@@ -406,6 +407,13 @@
     <Compile Include="Charts.aspx.designer.cs">
       <DependentUpon>Charts.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Email.aspx.cs">
+      <DependentUpon>Email.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Email.aspx.designer.cs">
+      <DependentUpon>Email.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Forms.aspx.cs">
       <DependentUpon>Forms.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -416,6 +424,7 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Models\form_model.cs" />
     <Compile Include="Sql.aspx.cs">
       <DependentUpon>Sql.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

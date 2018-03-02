@@ -10,7 +10,7 @@
 
     <div class="row">
         <div class="col-md-4">
-            <h2>Bootstrap</h2>
+            <h2><span class="fa fa-bold"></span> Bootstrap</h2>
             <p>
                 I changed the bootstrap theme using bootswatch and updated it to verions 4.0
             </p>
@@ -19,7 +19,7 @@
             </p>
         </div>
         <div class="col-md-4">
-            <h2>Font Awesome</h2>
+            <h2><span class="fa fa-flag"></span> Font Awesome</h2>
             <p>
                 I am using font awesome for all of the logos on this site.
             </p>
@@ -28,12 +28,12 @@
             </p>
         </div>
         <div class="col-md-4">
-            <h2>GitHub</h2>
+            <h2><span class="fa fa-github"></span> GitHub</h2>
             <p>
-                This repo is stored on github
+                This repo is stored on github, under my account and can be accessed from anywhere for furture builds.
             </p>
             <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
+                <a class="btn btn-default" href="https://github.com/bull5150">Learn more &raquo;</a>
             </p>
         </div>
     </div>
